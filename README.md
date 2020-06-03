@@ -6,7 +6,7 @@ Model: 73031347
 # How to use
 - Install `Arduino-IRRemote` library https://github.com/z3t0/Arduino-IRremote
 - Connect IR led to pin 3 on Arduino Nano (or appropiate pwm on other devices)
-- UART Speed: 9600
+- UART speed: 9600 8N1
 
 # Commands
 No newline needed, just send single chars!
