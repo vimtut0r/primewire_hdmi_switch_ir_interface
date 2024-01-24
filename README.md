@@ -1,7 +1,7 @@
 # Control HDMI switch over UART
-Applies to this HDMI switch: https://www.primewire-connects.de/hdmi-switch-5port-schwarz
+Applies to this HDMI switch: https://www.amazon.de/dp/B09MM5QT3R?psc=1&ref=ppx_yo2ov_dt_b_product_details
 
-Model: 73031347
+Model: HW-006
 
 # How to use
 - Install `Arduino-IRRemote` library https://github.com/z3t0/Arduino-IRremote
@@ -11,13 +11,8 @@ Model: 73031347
 # Commands
 No newline needed, just send single chars!
 
-- `P`: Power
 - `1`: Switch to port 1
 - `2`: Switch to port 2
 - `3`: Switch to port 3
-- `4`: Switch to port 4
-- `5`: Switch to port 5
-- `L`: Switch left (not tested: I assume it switches to the port number - 1)
-- `R`: Switch right
 
 Will return `OK\r\n` after receiving a valid char.
